@@ -19,3 +19,4 @@ services:
       - ./data:/data
       - ./code:/code
       - ./notebooks:/notebooks
+

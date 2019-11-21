@@ -14,3 +14,4 @@ dependencies:
   - pip=19.2.3
   - pip:
     - tensorflow==2.0.0
+    - hyperopt==0.2.2
