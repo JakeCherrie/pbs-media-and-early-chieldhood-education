@@ -127,4 +127,8 @@ dmypy.json
 # Zip files
 *.zip
 
+# wandb artefacts
+*wandb/
+
 # Specific items
+

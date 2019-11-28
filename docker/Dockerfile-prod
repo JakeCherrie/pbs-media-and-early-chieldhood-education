@@ -11,6 +11,6 @@ RUN conda update -n base -c defaults conda setuptools
 RUN conda update -n base conda -y && conda env update
 
 # add the code folder and notebooks folder to the docker image - this allows us to run
-# the image directly without relying on docker-compose or local file dependenciess
+# the image directly without relying on docker-compose or local file dependencies
 ADD ./code/ /code
 ADD ./notebooks /notebooks
